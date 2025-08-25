@@ -1,10 +1,10 @@
-# Simple Neural Network from Scratch (Backpropagation)
+# Simple Neural Network from Scratch
 Building AI course project
 
 ## Summary
-This project implements a small feedforward neural network with one hidden layer, trained using backpropagation.  
-It is coded in Python without libraries like TensorFlow or PyTorch.  
-The goal is to demonstrate how neural networks learn using forward and backward passes.
+This project builds a simple feedforward neural network with one hidden layer and trains it using backpropagation.  
+The goal is to explain how forward and backward passes work in practice, without using machine learning libraries.
+
 
 ---
 
