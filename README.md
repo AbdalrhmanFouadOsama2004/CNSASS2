@@ -46,12 +46,3 @@ and its derivative:
 ## Results
 After training, the network produces outputs close to the expected `[0.01, 0.99]`.  
 This shows that even a simple two-layer neural network can learn via backpropagation.
-
----
-
-## How to Run
-Clone the repository and run the script:
-```bash
-git clone https://github.com/AbdalrhmanFouadOsama2004/CNSASS2.git
-cd CNSASS2
-python neural_net.py
