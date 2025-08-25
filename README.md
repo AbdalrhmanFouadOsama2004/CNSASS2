@@ -1,8 +1,9 @@
 # Simple Neural Network from Scratch (Backpropagation)
 
-This project implements a **basic feedforward neural network** with backpropagation in Python **without using external libraries like TensorFlow or PyTorch**.  
-
-It is based on the classic example from *Neural Networks and Deep Learning by Michael Nielsen*.
+## Summary
+This project implements a simple **feedforward neural network** with one hidden layer and trains it using **backpropagation**.  
+It is coded entirely from scratch in Python, without using machine learning libraries, to demonstrate the math behind neural networks.  
+The network learns to approximate the mapping from `[0.05, 0.10]` to `[0.01, 0.99]`.
 
 ---
 
@@ -14,8 +15,8 @@ It is based on the classic example from *Neural Networks and Deep Learning by Mi
 The network is trained using **gradient descent** with the sigmoid activation function and its derivative.  
 The training runs for 10,000 epochs on the following example:
 
-- **Inputs:** `[0.05, 0.10]`
-- **Expected output:** `[0.01, 0.99]`
+- **Inputs:** `[0.05, 0.10]`  
+- **Expected output:** `[0.01, 0.99]`  
 
 ---
 
